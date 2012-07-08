@@ -1,0 +1,21 @@
+##nanorc
+##by samurai@psych0tik.net
+##if you're thinking "gee, nano, rather than vi/m"... feel free to not use this ;)
+
+##set up the environment
+set historylog
+set nonewlines
+set softwrap
+set smooth
+set const	##always display our position. we'll see if i end up liking this or not..
+set morespace	##small displays sometimes
+set tabsize 4
+
+##get local syntax files
+include ~/.nano-syntax/nanorc.nanorc
+
+##key re-bindings
+bind ^J help main	## please dont justify my code for me... that just destroys everything
+bind F4 help main	## because one way to do that just wasnt enough :P
+bind ^B prevword all	##zsh style moves
+bind ^F	nextword all	##zsh style moves
