@@ -9,10 +9,11 @@ set softwrap
 set smooth
 set const	##always display our position. we'll see if i end up liking this or not..
 set morespace	##small displays sometimes
-set tabsize 4
+##set tabsize 6
 
 ##get local syntax files
 include ~/.nano-syntax/nanorc.nanorc
+include ~/.nano-syntax/redcode.nanorc
 
 ##key re-bindings
 bind ^J help main	## please dont justify my code for me... that just destroys everything
