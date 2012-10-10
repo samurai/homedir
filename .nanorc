@@ -12,8 +12,18 @@ set morespace	##small displays sometimes
 ##set tabsize 6
 
 ##get local syntax files
-include ~/.nano-syntax/nanorc.nanorc
-include ~/.nano-syntax/redcode.nanorc
+Include ~/.nano-syntax/css.nanorc
+Include ~/.nano-syntax/debian.nanorc
+Include ~/.nano-syntax/gentoo.nanorc
+Include ~/.nano-syntax/html.nanorc
+Include ~/.nano-syntax/nanorc.nanorc
+Include ~/.nano-syntax/perl.nanorc
+Include ~/.nano-syntax/php.nanorc
+Include ~/.nano-syntax/python.nanorc
+Include ~/.nano-syntax/redcode.nanorc
+Include ~/.nano-syntax/sh.nanorc
+Include ~/.nano-syntax/xml.nanorc
+
 
 ##key re-bindings
 bind ^J help main	## please dont justify my code for me... that just destroys everything
